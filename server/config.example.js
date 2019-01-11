@@ -27,13 +27,13 @@ module.exports = {
   */
   RECAPTCHA_SECRET_KEY: '',
 
-  /* 
+  /*
     Google Cloud API to prevent from users from submitting malware URLs.
     Get it from https://developers.google.com/safe-browsing/v4/get-started
   */
   GOOGLE_SAFE_BROWSING_KEY: '',
 
-  /* 
+  /*
     Google Analytics tracking ID for universal analytics.
     Example: UA-XXXX-XX
   */

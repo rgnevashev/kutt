@@ -1,4 +1,4 @@
-FROM node:9.5.0-alpine
+FROM node:carbon-alpine
 
 ADD . /code
 WORKDIR /code

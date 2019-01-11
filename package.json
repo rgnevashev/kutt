@@ -5,7 +5,7 @@
   "main": "./server/server.js",
   "scripts": {
     "test": "mocha --compilers js:@babel/register ./client/**/__test__/*.js",
-    "dev": "nodemon -w ./server/**/*.js ./server/server.js",
+    "dev": "nodemon --watch server server/server.js",
     "build": "next build ./client",
     "start": "NODE_ENV=production node ./server/server.js",
     "lint": "./node_modules/.bin/eslint . --fix",
@@ -36,6 +36,7 @@
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.5",
     "date-fns": "^1.29.0",
+    "dotenv": "^6.2.0",
     "email-validator": "^1.1.1",
     "express": "^4.16.2",
     "express-validator": "^4.3.0",

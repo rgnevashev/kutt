@@ -1,13 +1,13 @@
 language: node_js
 
 node_js:
-  - "9"
+  - "8"
 
 before_install:
   - cp ./server/config.example.js ./server/config.js
   - cp ./client/config.example.js ./client/config.js
 
 script:
-  - yarn run lint:nofix
-  - yarn test
-  - yarn build
+  - npm run lint:nofix
+  - npm run test
+  - npm run build
